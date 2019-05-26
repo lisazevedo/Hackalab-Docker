@@ -1,1 +1,1 @@
-docker build -t hacklab/docker:latest .
+docker build -t hackalab/docker:latest .
