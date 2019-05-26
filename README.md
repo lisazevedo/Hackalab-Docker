@@ -12,11 +12,11 @@
 ### How to put it to work?
 
 ##### 1. First you need to build the Docker
-To build the Docker it's just, on Linux, run the file `dockerbuild.sh`, like:
+To build the Docker, on Linux, run the file `docker_build.sh`, like:
 
-`$ ./dockerbuild.sh`
+`$ ./docker_build.sh`
 
-##### 2. ...And now it's just run the Docker
-To run the Docker it's just run the file `dockerrun.sh`: 
+##### 2. ...And now run
+To execute the Docker run the file `docker_run.sh`: 
 
-`$ ./dockerrun.sh`
+`$ ./docker_run.sh`
