@@ -30,15 +30,15 @@ ARG HOST_GID=1000
 ENV HOST_UID ${HOST_UID}
 ENV HOST_GID ${HOST_GID}
 
-RUN useradd --create-home --uid ${HOST_UID} --groups sudo --shell /bin/bash mitm \
-    && echo "mitm ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/mitm \
-    && chmod 0440 /etc/sudoers.d/mitm
+RUN useradd --create-home --uid ${HOST_UID} --groups sudo --shell /bin/bash hackalab \
+    && echo "hackalab ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/hackalab \
+    && chmod 0440 /etc/sudoers.d/hackalab
 
 
-ENV HOME /home/mitm
+ENV HOME /home/hackalab
 
-USER mitm
-WORKDIR /home/mitm
+USER hackalab
+WORKDIR /home/hackalab
 
 CMD bash
 
