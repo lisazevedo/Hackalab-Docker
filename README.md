@@ -14,9 +14,12 @@
 ##### 1. First you need to build the Docker
 To build the Docker, on Linux, run the file `docker_build.sh`, like:
 
-`$ ./docker_build.sh`
-
+```sh
+  $ ./docker_build.sh`
+```
 ##### 2. ...And now run
 To execute the Docker run the file `docker_run.sh`: 
 
-`$ ./docker_run.sh`
+```sh
+  $ ./docker_run.sh`
+```
