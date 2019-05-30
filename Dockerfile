@@ -14,8 +14,8 @@ RUN apt-get update && apt-get install -y \
     netcat \
     nmap \
     git \
-    chromium-browser\
-    #wireshark \
+    chromium-browser \
+    ettercap-text-only \
     build-essential \
     iputils-ping \
     sudo \ 
@@ -40,5 +40,5 @@ ENV HOME /home/hackalab
 USER hackalab
 WORKDIR /home/hackalab
 
-CMD bash
+CMD ["/bin/bash"]
 
