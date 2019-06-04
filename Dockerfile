@@ -10,11 +10,12 @@ RUN apt-get install perl pkg-config libglib2.0-dev libpcap-dev gtk2.0 -y
 
 RUN apt-get update && apt-get install -y \ 
     ettercap-graphical \
+    #ettercap-text-only \
     net-tools \
     netcat \
     nmap \
     git \
-    chromium-browser\
+    chromium-browser \
     #wireshark \
     build-essential \
     iputils-ping \
@@ -23,6 +24,9 @@ RUN apt-get update && apt-get install -y \
     
 RUN git clone https://gitlab.com/fredericopissarra/t50.git
 RUN cd t50 && make && make install
+
+RUN git clone https://github.com/zanyarjamal/xerxes.git
+RUN cd xerxes && gcc xerxes.c -o xerxes
 
 ARG HOST_UID=1000
 ARG HOST_GID=1000
