@@ -1,11 +1,12 @@
 # Docker Hack*a*lab
 
-![](https://img.shields.io/badge/Version-0.0.1-blue.svg)
+![](https://img.shields.io/badge/Version-0.0.2-blue.svg)
 ### Ubuntu 16.04 Docker with tools:
                 
  + Ettercap
  + Nmap
  + T50
+ + Xerxes
  + Netcat
  + Iptables
 
