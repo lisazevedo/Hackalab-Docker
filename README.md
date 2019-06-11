@@ -1,13 +1,16 @@
 # Docker Hack*a*lab
 
-![](https://img.shields.io/badge/Version-0.0.2-blue.svg)
+![](https://img.shields.io/badge/Version-0.1.0-blue.svg)
 ### Ubuntu 16.04 Docker with tools:
                 
  + Ettercap
  + Nmap
  + T50
  + Xerxes
+ + sslstrip
+ + dsniff
  + Netcat
+ + Websploit
  + Iptables
 
 ### How to put it to work?
